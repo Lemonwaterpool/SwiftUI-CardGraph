@@ -7,23 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75536CEB2549A97D009141A4 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75536CEA2549A97D009141A4 /* GraphView.swift */; };
+		75536CEC2549A97D009141A4 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75536CEA2549A97D009141A4 /* GraphView.swift */; };
+		75536CF02549AEF7009141A4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75536CEF2549AEF7009141A4 /* CardView.swift */; };
+		75536CF12549AEF7009141A4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75536CEF2549AEF7009141A4 /* CardView.swift */; };
 		758BE42225497965005D9D0D /* SwiftUI_CardGraphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE40F25497964005D9D0D /* SwiftUI_CardGraphApp.swift */; };
 		758BE42325497965005D9D0D /* SwiftUI_CardGraphApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE40F25497964005D9D0D /* SwiftUI_CardGraphApp.swift */; };
-		758BE42425497965005D9D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE41025497964005D9D0D /* ContentView.swift */; };
-		758BE42525497965005D9D0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE41025497964005D9D0D /* ContentView.swift */; };
+		758BE42425497965005D9D0D /* CircleGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE41025497964005D9D0D /* CircleGraph.swift */; };
+		758BE42525497965005D9D0D /* CircleGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE41025497964005D9D0D /* CircleGraph.swift */; };
 		758BE42625497965005D9D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758BE41125497965005D9D0D /* Assets.xcassets */; };
 		758BE42725497965005D9D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758BE41125497965005D9D0D /* Assets.xcassets */; };
+		758BE439254992DA005D9D0D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE438254992DA005D9D0D /* Home.swift */; };
+		758BE43A254992DA005D9D0D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BE438254992DA005D9D0D /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75536CEA2549A97D009141A4 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		75536CEF2549AEF7009141A4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		758BE40F25497964005D9D0D /* SwiftUI_CardGraphApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CardGraphApp.swift; sourceTree = "<group>"; };
-		758BE41025497964005D9D0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		758BE41025497964005D9D0D /* CircleGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGraph.swift; sourceTree = "<group>"; };
 		758BE41125497965005D9D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		758BE41625497965005D9D0D /* SwiftUI-CardGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CardGraph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758BE41925497965005D9D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758BE41E25497965005D9D0D /* SwiftUI-CardGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-CardGraph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758BE42025497965005D9D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758BE42125497965005D9D0D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		758BE438254992DA005D9D0D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				758BE40F25497964005D9D0D /* SwiftUI_CardGraphApp.swift */,
-				758BE41025497964005D9D0D /* ContentView.swift */,
+				758BE438254992DA005D9D0D /* Home.swift */,
+				75536CEA2549A97D009141A4 /* GraphView.swift */,
+				75536CEF2549AEF7009141A4 /* CardView.swift */,
+				758BE41025497964005D9D0D /* CircleGraph.swift */,
 				758BE41125497965005D9D0D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -187,8 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758BE42425497965005D9D0D /* ContentView.swift in Sources */,
+				758BE42425497965005D9D0D /* CircleGraph.swift in Sources */,
+				758BE439254992DA005D9D0D /* Home.swift in Sources */,
 				758BE42225497965005D9D0D /* SwiftUI_CardGraphApp.swift in Sources */,
+				75536CEB2549A97D009141A4 /* GraphView.swift in Sources */,
+				75536CF02549AEF7009141A4 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758BE42525497965005D9D0D /* ContentView.swift in Sources */,
+				758BE42525497965005D9D0D /* CircleGraph.swift in Sources */,
+				758BE43A254992DA005D9D0D /* Home.swift in Sources */,
 				758BE42325497965005D9D0D /* SwiftUI_CardGraphApp.swift in Sources */,
+				75536CEC2549A97D009141A4 /* GraphView.swift in Sources */,
+				75536CF12549AEF7009141A4 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

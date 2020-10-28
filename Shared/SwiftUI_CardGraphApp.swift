@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftUI_CardGraphApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home().environmentObject(AppState())
         }
     }
+}
+
+class AppState: ObservableObject {
+    @Published var colors: [Color] = [.red, .yellow, .blue, .green, .orange, .purple, .pink]
 }
